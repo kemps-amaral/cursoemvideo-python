@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome: '))
+print('Maiúsculo: {}'.format(nome.upper()))
+print('Minúsculo: {}'.format(nome.lower()))
+print('Total de caracteres: {}'.format(len(nome.strip())))
+nome_completo = nome.split()
+print('Primeiro nome: {}'.format(nome_completo[0]))
+print('Total de caracteres do primeiro nome: {}'.format(len(nome_completo[0])))
